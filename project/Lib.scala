@@ -28,6 +28,7 @@ object Lib {
   val hibernate     = "org.hibernate"               %   "hibernate-entitymanager" % Version.HIBERNATE
   val h2            = "com.h2database"              %   "h2"                      % Version.H2
   val selenium      = "org.seleniumhq.selenium"     %   "selenium-server"         % Version.SELENIUM
+  val mockito       = "org.mockito"                 %   "mockito-all"             % Version.MOCKITO
 
 
 }
