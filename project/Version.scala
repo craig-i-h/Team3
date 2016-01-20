@@ -14,4 +14,6 @@ object Version {
   val HIBERNATE     = "4.3.9.Final"
   val H2            = "1.4.190"
   val SELENIUM      = "2.48.2"
+  val MOCKITO       = "1.9.5"
+
 }
