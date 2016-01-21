@@ -1,15 +1,9 @@
 package tests;
 import models.persistence.dao.impl.AssetDao;
-import models.persistence.dao.play.EntityManagerProvider;
 import models.persistence.entities.AssetEntity;
-import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.mockito.internal.util.MockitoLogger;
-
 import javax.persistence.EntityManager;
-import javax.validation.constraints.AssertFalse;
-
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
