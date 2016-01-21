@@ -18,6 +18,11 @@ GET         /item        controllers.resource.play.ItemEndpoint.list()
 GET         /sse-connection/:id    controllers.resource.play.SSEEndpoint.createSSEConnection(id: String)
 POST        /sse-request           controllers.resource.play.SSEEndpoint.createSSEExampleRequest()
 
+GET         /asset        controllers.resource.play.AssetEndpoint.list()
+GET         /asset/:id    controllers.resource.play.AssetEndpoint.find(id: Long)
+POST        /asset        controllers.resource.play.AssetEndpoint.create()
+PUT         /asset        controllers.resource.play.AssetEndpoint.update()
+DELETE      /asset/:id    controllers.resource.play.AssetEndpoint.delete(id: Long)
 
 #STATIC CONTENT
 
