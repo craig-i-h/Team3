@@ -37,8 +37,6 @@ public class CreateAssetServiceOperation extends ServiceOperation
     {
         AssetEntity asset = new AssetEntity();
 
-        asset.setId(jsonRequest.findPath(WsdsConstants.ASSET_JSON_ID_PROPERTY).longValue());
-
         asset.setAdditional_information(jsonRequest.findPath(WsdsConstants.ASSET_JSON_ADDITIONAL_INFO_PROPERTY).textValue());
 
         asset.setAsset_owner(jsonRequest.findPath(WsdsConstants.ASSET_JSON_ASSET_OWNER_PROPERTY).textValue());
