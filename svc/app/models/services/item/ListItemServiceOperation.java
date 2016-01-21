@@ -8,7 +8,6 @@ import models.persistence.entities.ItemEntity;
 import models.persistence.entities.ProjectEntity;
 import models.services.ServiceOperation;
 import play.Logger;
-
 import javax.inject.Inject;
 import java.util.List;
 
@@ -21,12 +20,12 @@ public class ListItemServiceOperation extends ServiceOperation
     private JSONHelper jsonHelper;
 
     @Inject
-    public ListItemServiceOperation(ItemDao dao, JSONHelper jsonHelper)
-    {
-        this.dao = dao;
+public ListItemServiceOperation(ItemDao dao, JSONHelper jsonHelper)
+{
+    this.dao = dao;
 
-        this.jsonHelper = jsonHelper;
-    }
+    this.jsonHelper = jsonHelper;
+}
 
     @Override protected JsonNode doExecute(JsonNode jsonRequest)
     {

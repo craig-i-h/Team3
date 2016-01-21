@@ -2,7 +2,6 @@
 
 (function () {
 
-
     angular.module("app").service("itemRepository", ["$q", "$log", "itemDal", ItemRepo]);
 
     function ItemRepo($q, $log, itemDal) {
