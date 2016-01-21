@@ -48,6 +48,10 @@
             $state.go("home.assetadd");
         };
 
+        vm.navigateToEditAsset = function () {
+            $state.go("home.assetedit");
+        };
+
         vm.logout = function () {
             delete $window.sessionStorage.token;
             $state.go("login");

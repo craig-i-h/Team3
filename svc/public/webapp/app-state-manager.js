@@ -81,6 +81,6 @@
                       templateUrl: "feature/asset/asset-edit-form.html"
                  }
                }
-         }).
-    });
+         });
+      })
 }());
