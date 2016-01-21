@@ -2,7 +2,6 @@ package tests;
 
 import static org.junit.Assert.assertEquals;
 import models.persistence.entities.AssetEntity;
-import org.junit.Before;
 import org.junit.Test;
 
 
@@ -23,8 +22,8 @@ public class AssetEntityTest {
     @Test
     public void testSetAssetOwnerReturnsAssetOwner()
     {
-        assetEntity.setAsset_owner("Rob");
-        assertEquals(assetEntity.getAsset_owner(), "Rob");
+        assetEntity.setAsset_owner("Asset Owner");
+        assertEquals(assetEntity.getAsset_owner(), "Asset Owner");
     }
 
     @Test
