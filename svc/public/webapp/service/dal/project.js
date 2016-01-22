@@ -22,6 +22,5 @@
         this.deleteProject = function (projectToDelete) {
             return dal.http.DELETE("project/", projectToDelete);
         };
-
     }
 }());

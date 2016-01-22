@@ -20,6 +20,10 @@
             return $state.is("home.item");
         };
 
+        vm.isAtAsset = function() {
+            return $state.is("home.asset");
+        };
+
         vm.navigateToDashboard = function () {
             $state.go("home.dashboard");
         };
@@ -34,6 +38,18 @@
 
         vm.navigateToItem = function () {
             $state.go("home.item");
+        };
+
+        vm.navigateToAsset = function () {
+            $state.go("home.asset");
+        };
+
+        vm.navigateToAddAsset = function () {
+            $state.go("home.assetadd");
+        };
+
+        vm.navigateToEditAsset = function () {
+            $state.go("home.assetedit");
         };
 
         vm.logout = function () {
